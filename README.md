@@ -23,7 +23,7 @@ A platform for sharing and viewing interview experiences.
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   cd client && npm install
+   cd temp-client && npm install
    cd ../server && npm install
    ```
 3. Set up environment variables:
@@ -46,13 +46,13 @@ A platform for sharing and viewing interview experiences.
    cd server && npm run dev
 
    # Start frontend development server
-   cd client && npm run dev
+   cd temp-client && npm run dev
    ```
 
 ## Project Structure
 
 ```
-├── client/
+├── temp-client/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── context/
