@@ -5,7 +5,7 @@ A platform for sharing and viewing interview experiences.
 ## Features
 
 - User authentication
-- Create, read, update, and delete interview experiences
+- Create, read, update, and delete interview experiences.
 - Search and filter submissions
 - Responsive design
 - Real-time form validation
@@ -48,42 +48,7 @@ A platform for sharing and viewing interview experiences.
    # Start frontend development server
    cd temp-client && npm run dev
    ```
-
-## Project Structure
-
 ```
-├── temp-client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── utils/
-│   ├── .env
-│   └── package.json
-│
-└── server/
-    ├── controllers/
-    ├── middleware/
-    ├── models/
-    ├── routes/
-    ├── .env
-    └── package.json
-```
-
-## API Endpoints
-
-### Auth Routes
-- POST `/api/auth/register` - Register a new user
-- POST `/api/auth/login` - Login user
-- GET `/api/auth/me` - Get current user
-
-### Interview Experience Routes
-- GET `/api/experiences` - Get all experiences
-- GET `/api/experiences/:id` - Get single experience
-- POST `/api/experiences` - Create new experience
-- PUT `/api/experiences/:id` - Update experience
-- DELETE `/api/experiences/:id` - Delete experience
 
 ## Contributing
 
